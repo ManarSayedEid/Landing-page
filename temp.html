@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> My template </title>
+
+
+  
+   <!-- bootstrap css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" >
+
+  <!-- font awesome icons -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <style>
+    .b-nav-r{
+      border-right: .1px solid white;
+    }
+
+    .nav-item {
+      /*font-size:14px;*/
+      font-weight: 300;
+    }
+    .fab{
+      font-size:13px;
+    }
+
+    .btn-success{
+      background-color: #A2DF48;
+      border-color: #A2DF48;
+      border-radius: 5px;
+    }
+
+
+    .position-carsoul{
+      position: absolute;
+      top: 20%;
+      left: 15%;
+    }
+
+    .margin-minus-extra{
+      margin-top: -15%;
+      z-index: 3;
+    }
+    .margin-minus{
+      margin-top: -7%;
+      z-index: 3;
+    }
+
+    .b-green{
+      border-right: 2px solid #A2DF48;
+    }
+
+    .b-bot-green{
+      border-bottom: 2px solid #A2DF48;
+      display: inline-block;
+    }
+
+    .cen{
+      opacity: .8;
+      position: absolute;
+      bottom:0%;
+      text-align: center;
+      width: 80%;
+      height: 15%;
+      margin: auto;
+      background-color: #A2DF48;
+    }
+    .cen:hover{
+      cursor: pointer;
+    }
+
+    .special{
+      padding:10px;
+      margin-top: 20px;
+      background-color: #2D3559; 
+      color:white;
+      width: 60%;
+      height: 70%;
+    }
+
+    .mydiv{
+      margin-bottom: -10%;
+      z-index: 7;
+    }
+  </style>
+
+
+</head>
+<body>
+
+
+
+<div style="background-color: #2D3559">
+<div class="container" >
+
+<div class="row">
+<ul class="nav col-lg-6 col-md-12">
+  <li class="nav-item">
+    <a class="nav-link text-light b-nav-r fs-6" aria-current="page" href="#">Why us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light b-nav-r fs-6" href="#">Locations</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light b-nav-r fs-6" href="#">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light fs-6" href="#">Solution center</a>
+  </li>
+</ul>
+
+<div class="col-lg-2"></div>
+
+<ul class="nav col-lg-3 col-md-12 offset-md-1">
+  <li class="nav-item">
+    <a class="nav-link text-light fs-6" aria-current="page" href="#"> <i class='fab fa-facebook-f'></i>  </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light fs-6" href="#"> <i class="fab fa-twitter"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light fs-6" href="#"> <i class="fab fa-google"></i></a> 
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-light fs-6" href="#"> <i class="fab fa-linkedin-in"></i></a> 
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link text-light fs-6" href="#"> <i class="fab fa-instagram"></i></a> 
+  </li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+
+<div class="container mt-4 mb-4">
+  <div class="row">
+  <img src="logo.png" class="col-2">
+  <!-- just empty col -->
+  <div class="col-1"></div> 
+  <!--  -->
+
+  <div class="col">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-phone-volume" style="color: #A2DF48;"></i> </div>
+    <div class="col"> <h6>1+(91) 458 654 528</h6> <small>Phone Number</small> </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-envelope" style="color: #A2DF48;"></i> </div> 
+    <div class="col"> <h6>info@example.com</h6> <small>Email address</small> </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="row">
+    <div class="col-1"> <i class="fa fa-map-marker" style="color: #A2DF48;"></i> </div>
+    <div class="col"> <h6>1105 Roosevelt Street</h6> <small>Location</small> </div>
+    </div>
+  </div>
+
+  <div class="col-2"><button type="button" class="btn btn-success btn-outline-dark btn-lg text-light">GET A QUOTE</button></div>
+</div>
+  </div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="container-fluid" style="background-color: #A2DF48">
+
+  <div class="container">
+
+<nav class="navbar navbar-expand-lg mt-4" style="background-color: #A2DF48 !important">
+  <div class="container-fluid">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            HOME
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+          </a>
+          <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+          </ul>
+        </li>
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            CASES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SERVICES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FEATURES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+          </ul>
+        </li>
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            NEWS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+          </ul>
+        </li>
+
+       <li class="nav-item">
+          <a class="nav-link text-light fw-bold" href="#">CONTACT</a>
+       </li>
+
+      </ul>
+
+      <div class="row">
+        <div class="col-10"></div>
+        <div class="col" > 
+         <i class="fas fa-search text-light fw-bold p-4 mt-0 mb-0"  style="background-color: #82B23A; cursor:pointer;" ></i> 
+       </div>
+       <div class="col"></div>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+
+<div class="carousel-item active">
+    <div class="card bg-dark text-white ">
+  <img src="copy.png" class="card-img d-block w-100 border border-0 border-light" alt="...">
+  <div class="card-img-overlay position-carsoul w-50">
+    <h2 class="card-title"> Get Insurance for almost anything you need.</h2>
+    <p class="card-text">Nobody’s more committed to connecting you with the exceptional top talents with the right fit for your business than us.</p>
+    <button type="button" class="btn btn-success btn-outline-dark btn-lg text-light">OUR SERVICES</button>
+    <button type="button" class="btn btn-light btn-outline-dark btn-lg">CONTACT US</button>
+  </div>
+</div>
+</div>
+
+<div class="carousel-item">
+    <div class="card bg-dark text-white ">
+  <img src="2.png" class="card-img d-block border border-0 border-light" alt="...">
+  <div class="card-img-overlay position-carsoul w-50">
+    <h2 class="card-title"> Living the dream is a state of mind. Start a plan that fit with you.</h2>
+    <button type="button" class="btn btn-success btn-outline-dark btn-lg text-light">OUR SERVICES</button>
+    <button type="button" class="btn btn-light btn-outline-dark btn-lg">CONTACT US</button>
+  </div>
+</div>
+</div>
+
+
+<div class="carousel-item">
+    <div class="card bg-dark text-white">
+  <img src="3.png" class="card-img d-block w-100 border border-0 border-light" alt="...">
+  <div class="card-img-overlay position-carsoul w-50">
+    <h2 class="card-title">Enabling businesses to secure your family.</h2>
+    <p class="card-text">Nobody’s more committed to connecting you with the exceptional top talents with the right fit for your business than us.</p>
+    <button type="button" class="btn btn-success btn-outline-dark btn-lg text-light">OUR SERVICES</button>
+    <button type="button" class="btn btn-light btn-outline-dark btn-lg">CONTACT US</button>
+  </div>
+</div>
+</div>
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+  </div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="container">
+  <div class="row mb-5">
+
+<div class="col">
+<center class="card text-white h-100 margin-minus">
+  <img src="4.jpg" class="card-img w-100 h-100" alt="..."  style="opacity: .7;">
+  <div class="card-img-overlay mt-5">
+    <i class="fas fa-people-arrows" style="font-size:30px;"></i>
+    <h5 class="card-title">500+ Employees worldwide</h5>
+    <p class="card-text">Give you personal advice.</p>
+  </div>
+</center>
+</div>
+
+<div class="col-4">
+<center class="card  text-white h-100 margin-minus-extra" style="background-color: #A2DF48;">
+  <img src="5.jpg" class="card-img w-100 h-100" alt="..."  style="opacity: .2;">
+  <div class="card-img-overlay mt-5">
+    <i class="far fa-lemon" style="font-size:30px;"></i>
+    <h5 class="card-title">25 years in this business</h5>
+    <p class="card-text">with Proud and Success</p>
+  </div>
+</center>
+</div>
+
+<div class="col">
+<center class="card  text-white h-100 margin-minus">
+  <img src="7.jpg" class="card-img w-100 h-100" alt="..." style="opacity: .7;">
+  <div class="card-img-overlay mt-5">
+    <i class="fas fa-users" style="font-size:30px;"></i>
+    <h5 class="card-title">100+ Community Involvement</h5>
+    <p class="card-text">with 150+ Active Volunteers.</p>
+  </div>
+</center>
+</div>
+
+</div>
+</div>
+
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="container">
+  <div class="row mt-5 mb-5 pt-5 pb-5">
+
+    <div class="col-4 b-green">
+      <h4 style="color: #A2DF48;"> Who we are</h4>
+      <h2 class="fw-bold">Providing services and happiness</h2> 
+    </div>
+
+    <div class="col-8">
+
+      <p class="fs-5">
+        From lost luggage to unexpected medical expenses, we’re there to help when things don’t go to plan. With basic cover from only $2.84 a day1, Real Travel Insurance can give you affordable peace of mind when you’re travelling.
+      </p>
+
+    <button type="button" class="btn btn-success btn-outline-dark btn-lg text-light">READ MORE</button>   
+    </div>
+  </div>
+</div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="container-fluid bg-light mt-5 pt-5">
+  <div class="row mb-5 pb-5">'
+  <center class="col "> <h1 class="b-bot-green"> Our Services </h1></center>
+  </div>
+
+
+ <div class="container mb-3">
+
+  <div class="row">
+
+<div class="col mr-1">
+<div class="card text-white h-100 ">
+  <img src="10.jpg" class="card-img h-100 w-100" alt="...">
+  <div class="card-img-overlay">
+<center class="cen">
+  <i class="fas fa-car" style="font-size:20px;"></i> 
+    <h5 class="card-title" style="display: inline-block;">Car insurance</h5>
+  </center>
+  </div>
+</div>
+</div>
+
+<div class="col mr-1">
+<div class="card text-white h-100 ">
+  <img src="11.jpg" class="card-img h-100 " alt="...">
+  <div class="card-img-overlay">
+<center class="cen">
+  <i class="fas fa-home" style="font-size:20px;"></i>
+    <h5 class="card-title" style="display: inline-block;">Human insurance</h5>
+  </center>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card text-white h-100">
+  <img src="12.jpg" class="card-img h-100 w-100" alt="...">
+  <div class="card-img-overlay">
+<center class="cen">
+  <i class="fas fa-users" style="font-size:20px;"></i>
+    <h5 class="card-title" style="display: inline-block;">Life protection</h5>
+  </center>
+  </div>
+</div>
+</div>
+
+</div> 
+ </div>
+
+
+ <div class="container pb-5">
+
+  <div class="row">
+
+<div class="col mr-1">
+<div class="card text-white h-100 ">
+  <img src="10.jpg" class="card-img h-100 w-100" alt="...">
+  <div class="card-img-overlay">
+<center class="cen">
+  <i class="fas fa-car" style="font-size:20px;"></i> 
+    <h5 class="card-title" style="display: inline-block;">Car insurance</h5>
+  </center>
+  </div>
+</div>
+</div>
+
+<div class="col mr-1">
+<div class="card text-white h-100 ">
+  <img src="11.jpg" class="card-img h-100 " alt="...">
+  <div class="card-img-overlay">
+<center class="cen">
+  <i class="fas fa-home" style="font-size:20px;"></i>
+    <h5 class="card-title" style="display: inline-block;">Human insurance</h5>
+  </center>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="card text-white h-100">
+  <img src="12.jpg" class="card-img h-100 w-100" alt="...">
+  <div class="card-img-overlay">
+<center class="cen">
+  <i class="fas fa-users" style="font-size:20px;"></i>
+    <h5 class="card-title" style="display: inline-block;">Life protection</h5>
+  </center>
+  </div>
+</div>
+</div>
+
+</div> 
+ </div>
+
+</div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="row">
+<div class="container-fluid pt-0 mr-0 ml-0 pr-0 pl-0">
+
+<div class="card mr-0 ml-0 pr-0 pl-0 border border-0" style="background-color: #A2DF48;">
+  <img src="13.jpg" class="card-img w-100 mr-0 ml-0 pr-0 pl-0 " style="opacity: .2; height:50vh;">
+  <div class="card-img-overlay mt-5">
+
+<div class="container">
+  <div class="row">
+
+
+    <div class="col-5">
+
+    <div class="row">
+
+    <div class="col-1"> <img src="cta-1.png" class="mr-0 ml-0 pr-0 pl-0"> </div>
+<div class="col-2"></div>
+    <div class="col-9 text-light"> 
+      <h3>Find an Insurance Agent</h3> 
+      <p>These Happy Days are yours and mine Happy Days then one day he was shooting at some food.</p>
+      <button type="button" class="btn btn-lg fw-bold btn-outline-dark text-light" style="background-color: #2D3559;">CALL NOW</button>
+    </div>
+    </div>
+      
+    </div>
+
+<div class="col-1"></div>
+    <div class="col-6">
+
+    <div class="row">
+    <div class="col-1"> <img src="cta-2.png" class="mr-0 ml-0 pr-0 pl-0"> </div>
+<div class="col-2"></div>
+    <div class="col-9 text-light">
+     <h3>Call Us for Any Questions</h3>
+     <div class="special"> <p>009-215-5596</p> <span>(Toll Free)</span></div>
+    </div>
+    </div>
+      
+    </div>
+
+  </div>
+
+  </div>
+
+  </div>
+</div>
+</div>
+</div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="container-fluid  mt-5 pt-5">
+  <div class="row mb-5 pb-5">'
+  <center class="col "> <h1 class="b-bot-green"> Why choose us </h1></center>
+  </div>
+
+
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-7">
+      <div class="row">
+
+    <div class="col-6">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-handshake"
+     style="font-size:30px;background-color:#A2DF48; padding:20px; border-radius: 50%"></i> </div>
+    <div class="col-2"></div>
+    <div class="col-9"><h3>24/7 Support</h3><p>We provide great cover for backpackers, gap years takers</p> </div>
+    </div>
+    </div>
+
+    <div class="col-6">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-users"
+     style="font-size:30px;background-color:#A2DF48; padding:20px; border-radius: 50%"></i>  </div>
+    <div class="col-2"></div>
+    <div class="col-9"><h3>Dedicated Team member</h3><p>We provide great cover for backpackers, gap years takers</p> </div>
+    </div>
+    </div>
+
+    <div class="col-6">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-award"
+     style="font-size:30px;background-color:#A2DF48; padding:20px; border-radius: 50%"></i>  </div>
+    <div class="col-2"></div>
+    <div class="col-9"><h3>25 Years of experience</h3><p>We provide great cover for backpackers, gap years takers</p> </div>
+    </div>
+    </div>
+
+    <div class="col-6">
+    <div class="row">
+    <div class="col-1"> <i class="fab fa-angellist"
+     style="font-size:30px;background-color:#A2DF48; padding:20px; border-radius: 50%"></i>  </div>
+    <div class="col-2"></div>
+    <div class="col-9"><h3>Clients focused</h3><p>We provide great cover for backpackers, gap years takers</p> </div>
+    </div>
+    </div>
+
+    <div class="col-6">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-chart-line"
+     style="font-size:30px;background-color:#A2DF48; padding:20px; border-radius: 50%"></i>  </div>
+    <div class="col-2"></div>
+    <div class="col-9"><h3>Growing your business</h3><p>We provide great cover for backpackers, gap years takers</p> </div>
+    </div>
+    </div>
+
+    <div class="col-6">
+    <div class="row">
+    <div class="col-1"> <i class="fas fa-heart"
+     style="font-size:30px;background-color:#A2DF48; padding:20px; border-radius: 50%"></i> </div>
+    <div class="col-2"></div>
+    <div class="col-9"><h3>Service with love</h3><p>We provide great cover for backpackers, gap years takers</p> </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+    <div class="col-4 m-0 p-0">
+      <img src="why-choose-us.png" style="background-color: white;" class="m-0 p-0">
+    </div>
+ 
+</div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="row">
+<div class="container-fluid" style="background-color:#98DB40 ">
+<div class="container">
+  <h2 class="text-light pt-5 pb-5 fw-bold">Client’s Love</h2>
+
+<div class="row mydiv">
+
+  <div class="col bg-white m-2">
+
+    <div class="row pb-0 mb-0 pt-4">
+    <div class="col-1"> <img src="emp1.png" class="rounded-circle h-50  "> </div>
+    <div class="col-2"></div>
+    <div class="col-9"> <h5 style="display: inline-block; line-height: .5px;"class="fw-bold" >Jonas Blue</h5><br>
+    <small style="color: #A2DF48">Ceo Media</small></div>
+    </div>
+  <div class="row pt-0 mt-0 pb-1 mb-1">
+  <p class="col">Without taking proper consideration, you could go ahead with a mismatche policy, meaning you could end up with all.</p>
+  </div>
+
+  </div>
+    <div class="col bg-white m-2">
+    <div class="row pb-0 mb-0 pt-4">
+    <div class="col-1"> <img src="emp2.png" class="rounded-circle h-50  "> </div>
+    <div class="col-2"></div>
+    <div class="col-9"> <h5 style="display: inline-block; line-height: .5px;"class="fw-bold" >Endrew Gotham</h5><br>
+    <small style="color: #A2DF48">Ceo Rains</small></div>
+    </div>
+  <div class="row pt-0 mt-0 pb-1 mb-1">
+  <p class="col">Without taking proper consideration, you could go ahead with a mismatche policy, meaning you could end up with all.</p>
+  </div>
+
+  </div>
+    <div class="col bg-white m-2">
+    <div class="row pb-0 mb-0 pt-4">
+    <div class="col-1"> <img src="emp3.png" class="rounded-circle h-50  "> </div>
+    <div class="col-2"></div>
+    <div class="col-9"> <h5 style="display: inline-block; line-height: .5px;"class="fw-bold" >Nance Merry</h5><br>
+    <small style="color: #A2DF48">HR at Honta</small></div>
+    </div>
+  <div class="row pt-0 mt-0 pb-1 mb-1">
+  <p class="col">Without taking proper consideration, you could go ahead with a mismatche policy, meaning you could end up with all.</p>
+  </div>
+
+  </div>
+</div>
+
+</div></div></div>
+
+<!-- New section -------------------------------------------------------------------------------- -->
+
+<div class="row">
+<div class="container-fluid bg-light" style="z-index: -5">
+
+
+  <div class="container-fluid bg-light mb-5 pb-5"> </div>
+  <div class="container-fluid bg-light mb-5 pb-5"> </div>
+  <div class="container-fluid bg-light mb-3 pb-3"> </div>
+
+<div class="row">
+<div class="col-5">
+
+      <div class="container-fluid pb-5">
+        <div class="container">
+          <h4 style="color: #A2DF48"> Get a quote</h4><h2>Get Insurance Quote </h2>
+          <p class="w-75 fs-5">For travellers who do need emergency Canada and United States.</p>
+      </div>
+      </div>
+      <img src="contact.png">
+    </div>
+
+
+  <div class="col-3">
+
+<div class="row pb-5">
+
+ <span style="color: #A2DF48" class="col-6"> <i class="fas fa-globe-africa"></i> Travel Insurance </span>
+ <span class="col-6"> <i class="fas fa-hotel"></i> Home Insurance </span>
+</div>
+
+
+
+<h3 class="pb-4 fw-bold fs-4">Travel Insurance Quote</h3>
+<input type="text" class="form-control bg-light" placeholder="Name*"> <br>
+<input type="text" class="form-control bg-light" placeholder="Phone"> <br>
+<input type="text" class="form-control bg-light" placeholder="Destination*">
+
+  </div>
+
+
+  <div class="col-3">
+
+<div class="row pb-5">
+
+ <span class="col-6"> <i class="fas fa-car"></i> Car Insurance </span>
+ <span class="col-6"> <i class="fas fa-heart"></i> Life Insurance </span>
+</div>
+    
+<h3 class="pb-4 fw-bold fs-4 text-light">n</h3>
+<input type="text" class="form-control bg-light" placeholder="Email*"> <br>
+<input type="text" class="form-control bg-light" placeholder="Total person*"> <br>
+<input type="text" class="form-control bg-light" placeholder="Days to stay*">
+<br>
+
+<div class="row">
+  <div class="col-6"></div>
+
+<button type="button" class=" col-6 btn btn-success btn-outline-dark btn-lg text-light">SUBMIT</button>
+</div>
+  </div>
+
+
+  <div class="col-1"></div>
+
+  
+</div>
+</div>
+</div>
+
+
+
+<!-- bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
